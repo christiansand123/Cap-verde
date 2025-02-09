@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turen på cap verde</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <ul>
+        <li><a href="#home">Hjem</a></li>
+        <li><a href="#highlights">Højdepunkter</a></li>
+        <li><a href="#weather">Vejret</a></li>
+    </ul>
+</nav>
+<section id="home">
+    <h1>Turen på cap verde</h1>
+
+<img src="cap verde flag.webp" alt="Description" width="200" height="110">
+
+
+
+
+
+<br>
+    <p>her ser du alt og turen på cap verde</p>
+</section>
+<br>
+<img src="boa vista.jpeg" alt="Description" width="300" height="200">
+<br>
+<br>
+
+<div class="highlight-section" id="highlights">
+
+	<h2>Hvad er der her endelig?</h2>
+
+<br>
+
+<h3>strand🏖️</h3>
+<img src="strand.jpeg" alt="Description" width="300" height="200">
+
+<br>
+<br>
+
+<h3>pool💦</h3>
+
+<img src="pool.jpeg" alt="Description" width="300" height="200">
+<br>
+<br>
+
+
+
+<h4>værelser🛋️</h4>
+
+<img src="værelse.jpeg" alt="Description" width="300" height="200">
+
+<br>
+
+<h5>og det bedste af dem alle</h5>
+
+<br>
+
+<h3>katte🐈</h3>
+
+<img src="kat.jpeg" alt="Description" width="250" height="400">
+
+<br><h3>sødt🥰</h3>
+<img src="kat2.jpeg" alt="Description" width="250" height="400">
+<br>
+
+</div>
+
+<section id="weather">
+<h4>Hvor varmt bliver det de næste dage🔥</h4>
+
+<img src="vejr.jpeg" alt="Description" width="300" height="280">
+</section>
+
+<div class="fun-facts">
+    <h2>🌍 Sjove Fakta om Kap Verde</h2>
+    <ul>
+        <li>Kap Verde består af 10 øer, men kun 9 er beboede🚶🏼‍♂️</li>
+        <li>Landet blev selvstændigt fra Portugal i 1975🇵🇹</li>
+        <li>Den berømte sanger Cesária Évora kom fra Kap Verde🎤</li>
+    </ul>
+</div>
+
+
+
+<button onclick="scrollToTop()" id="topBtn">⬆ Tilbage til toppen</button>
+<script>
+window.onscroll = function() { showButton(); };
+
+function showButton() {
+    let button = document.getElementById("topBtn");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        button.style.display = "block";
+    } else {
+        button.style.display = "none";
+    }
+}
+
+function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+</script>
+</body>
+</html>
